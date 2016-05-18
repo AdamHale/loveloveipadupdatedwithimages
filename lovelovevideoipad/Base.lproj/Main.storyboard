@@ -193,7 +193,7 @@
                                     <constraint firstItem="VeK-i6-Xhc" firstAttribute="centerX" secondItem="aXM-DR-7He" secondAttribute="centerX" id="xwO-VJ-gWh"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose a video to watch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leC-Hc-7yk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a video to watch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leC-Hc-7yk">
                                 <rect key="frame" x="363" y="29" width="298" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="298" id="xLM-7E-poo"/>
