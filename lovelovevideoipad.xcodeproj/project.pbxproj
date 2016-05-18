@@ -15,10 +15,10 @@
 		5BAE430F1CE3229A0053F40E /* lovelovevideoipadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE430E1CE3229A0053F40E /* lovelovevideoipadTests.swift */; };
 		5BAE431A1CE3229A0053F40E /* lovelovevideoipadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE43191CE3229A0053F40E /* lovelovevideoipadUITests.swift */; };
 		688B2E9DFADE2CC91934A22C /* Pods_lovelovevideoipad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB849A48FC12DB3A953CA18 /* Pods_lovelovevideoipad.framework */; };
-		EB304BF01CE4C3CD0058437D /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BEF1CE4C3CD0058437D /* VideoView.swift */; settings = {ASSET_TAGS = (); }; };
-		EB304BF21CE4C3DC0058437D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF11CE4C3DC0058437D /* DetailView.swift */; settings = {ASSET_TAGS = (); }; };
-		EB304BF41CE4C3F40058437D /* NoAirplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF31CE4C3F40058437D /* NoAirplay.swift */; settings = {ASSET_TAGS = (); }; };
-		EB304BF81CE4D2140058437D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF71CE4D2140058437D /* Video.swift */; settings = {ASSET_TAGS = (); }; };
+		EB304BF01CE4C3CD0058437D /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BEF1CE4C3CD0058437D /* VideoView.swift */; };
+		EB304BF21CE4C3DC0058437D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF11CE4C3DC0058437D /* DetailView.swift */; };
+		EB304BF41CE4C3F40058437D /* NoAirplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF31CE4C3F40058437D /* NoAirplay.swift */; };
+		EB304BF81CE4D2140058437D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF71CE4D2140058437D /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -491,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lovelovevideoipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = accentmedia.lovelovevideoipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lovelovevideoipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = accentmedia.lovelovevideoipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
