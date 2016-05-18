@@ -34,7 +34,8 @@ class VideoView: UIViewController {
         videoPlayer.delegate = self
         
         ScrollView.contentSize.width = 1525
-        ScrollView.contentSize.height = 500
+        ScrollView.contentSize.height = 0
+       
     }
     
     @IBAction func play(sender: AnyObject) {

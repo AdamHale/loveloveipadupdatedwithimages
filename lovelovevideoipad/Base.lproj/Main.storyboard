@@ -15,17 +15,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="1273" height="671"/>
+                        <rect key="frame" x="0.0" y="64" width="1273" height="665"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bluebar" translatesAutoresizingMaskIntoConstraints="NO" id="lgV-Ln-61m">
-                                <rect key="frame" x="0.0" y="0.0" width="1296" height="75"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="eDF-fz-RLl"/>
-                                </constraints>
-                            </imageView>
-                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atz-IP-4Ot">
-                                <rect key="frame" x="0.0" y="75" width="1275" height="596"/>
+                            <scrollView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atz-IP-4Ot">
+                                <rect key="frame" x="0.0" y="75" width="1275" height="590"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJJ-52-Pud" userLabel="TheHighRoad">
                                         <rect key="frame" x="0.0" y="0.0" width="256" height="200"/>
@@ -202,6 +196,12 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bluebar" translatesAutoresizingMaskIntoConstraints="NO" id="lgV-Ln-61m">
+                                <rect key="frame" x="0.0" y="0.0" width="1296" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="eDF-fz-RLl"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -219,7 +219,7 @@
                     <navigationItem key="navigationItem" id="Nf1-Oz-C6e"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="1273" height="735"/>
+                    <size key="freeformSize" width="1273" height="729"/>
                     <connections>
                         <outlet property="ScrollView" destination="atz-IP-4Ot" id="fUr-9R-1Vx"/>
                         <segue destination="EtY-o1-21k" kind="show" identifier="VideoDetail" id="P2a-8r-FAw"/>
