@@ -90,13 +90,13 @@ func buildVideos() -> [Video] {
     
     
     let videoEleven = Video()
-    videoEleven.title = "CREDITPLUS TV COMMERCIAL"
-    videoEleven.description = "LoveLove were approached by Creditplus to produce a TV Commercial. Creditplus desired a TV commercial that would be a friendly and open introduction to their car finance services. Through concept meetings with the client, it was decided that a fun style of animation would suit the brand and through ‘Benny’s Story’ showcase their service."
-    videoEleven.id = "wOHtcinQP"
+    videoEleven.title = "GABBY YOUNG & OTHER ANIMALS – ‘IN YOUR HEAD"
+    videoEleven.description = "We were commissioned to produce a music video for artist Gabby Young & Other Animals. We had a completely open brief to create a music video for the track ‘In Your Head’"
+    videoEleven.id = "yOCf-UzU6gs"
     videos.append(videoEleven)
     
     let videoTwelve = Video()
-    videoTwelve.title = "BOURNEMOUTH TOURISM COASTAL DRONE "
+    videoTwelve.title = "BOURNEMOUTH TOURISM COASTAL DRONE"
     videoTwelve.description = "After the highly successful Study English in the UK project, Bournemouth Tourism once again commissioned LoveLove Films to produce an aerial photography video that also tied in with the Britain is Great Campaign.Bournemouth Tourism approached LoveLove Films with a desire for a video that was exclusively aerial footage, with the objective to showcase Bournemouth’s and Poole’s coastline as an area of extreme natural beauty."
     videoTwelve.id = "YSjd-m-O1A0"
     videos.append(videoTwelve)
@@ -115,9 +115,10 @@ func buildVideos() -> [Video] {
     videos.append(videoFourteen)
     
     let videoFifteen = Video()
-    videoFifteen.title = "GABBY YOUNG & OTHER ANIMALS – ‘IN YOUR HEAD’"
-    videoFifteen.description = "We were commissioned to produce a music video for artist Gabby Young & Other Animals. We had a completely open brief to create a music video for the track ‘In Your Head’."
-    videoFifteen.id = "yOCf-UzU6gs"
+    videoFifteen.title = "CREDITPLUS TV COMMERCIAL"
+    videoFifteen.description = "LoveLove were approached by Creditplus to produce a TV Commercial. Creditplus desired a TV commercial that would be a friendly and open introduction to their car finance services. Through concept meetings with the client, it was decided that a fun style of animation would suit the brand and through ‘Benny’s Story’ showcase their service."
+    videoFifteen.id = "wOHtcinQP"
     videos.append(videoFifteen)
     
     return videos
+}

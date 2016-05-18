@@ -16,6 +16,7 @@ var videoPlayer = YouTubePlayerView(frame: CGRect(x: 0, y: 0, width: 1280, heigh
 
 class VideoView: UIViewController {
     
+    @IBOutlet weak var ScrollView: UIScrollView!
     var secondWindow : UIWindow?
     var secondScreenView : UIView?
     var externalLabel = UILabel()
@@ -32,6 +33,8 @@ class VideoView: UIViewController {
         setupScreen()
         videoPlayer.delegate = self
         
+        ScrollView.contentSize.width = 1525
+        ScrollView.contentSize.height = 500
     }
     
     @IBAction func play(sender: AnyObject) {
