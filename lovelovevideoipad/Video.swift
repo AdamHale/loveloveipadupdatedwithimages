@@ -121,3 +121,4 @@ func buildVideos() -> [Video] {
     videos.append(videoFifteen)
     
     return videos
+}
