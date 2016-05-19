@@ -28,13 +28,16 @@ class VideoView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.automaticallyAdjustsScrollViewInsets = false
         
+        ScrollView.contentInset = UIEdgeInsetsZero
+        ScrollView.contentOffset = CGPointMake(0, 0)
+        ScrollView.scrollIndicatorInsets = UIEdgeInsetsZero
         
         setupScreen()
         videoPlayer.delegate = self
+        ScrollView.contentSize.width = 100
         
-        ScrollView.contentSize.width = 1525
-        ScrollView.contentSize.height = 0
        
     }
     
