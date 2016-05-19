@@ -290,7 +290,7 @@ The brief text will go here. Lorem ipsum dolor sit amet, consectetur adipiscing 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x1v-99-gZn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3972" y="838"/>
+            <point key="canvasLocation" x="4362" y="684"/>
         </scene>
         <!--No Airplay-->
         <scene sceneID="GRO-ZK-bS6">

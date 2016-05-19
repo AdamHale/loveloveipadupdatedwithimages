@@ -102,14 +102,14 @@ func buildVideos() -> [Video] {
     
     let videoThirteen = Video()
     videoThirteen.title = "BOURNEMOUTH COUNCIL – BRITAIN IS GREAT"
-    videoThirteen.description = "We were commissioned to produce a music video for artist Gabby Young & Other Animals. We had a completely open brief to create a music video for the track ‘In Your Head’"
-    videoThirteen.id = "yOCf-UzU6gs"
+    videoThirteen.description = "Bournemouth Tourism commissioned LoveLove Films to create a video that would encourage central and southern American students to study English in Bournemouth and Poole. They wanted a video that would show off the positive elements of Bournemouth, but which would also be emotional and relatable. Additionally, they wanted a video that would fit in with the Britain is GREAT campaign."
+    videoThirteen.id = "xoGQ4_jsJng"
     videos.append(videoThirteen)
     
     let videoFourteen = Video()
-    videoFourteen.title = ""
-    videoFourteen.description = "After the highly successful Study English in the UK project, Bournemouth Tourism once again commissioned LoveLove Films to produce an aerial photography video that also tied in with the Britain is Great Campaign.Bournemouth Tourism approached LoveLove Films with a desire for a video that was exclusively aerial footage, with the objective to showcase Bournemouth’s and Poole’s coastline as an area of extreme natural beauty."
-    videoFourteen.id = "YSjd-m-O1A0"
+    videoFourteen.title = "CISCO – CREATING GLOBAL PROBLEM SOLVERS"
+    videoFourteen.description = "LoveLove Films was approached by American technology company Cisco, and asked to produce a visually engaging corporate animation that aimed to showcase the crucial work the company does in helping set up networks and connect people in various regions across the globe.The video was to be used to convey a range of key projects that Cisco run throughout the world, including their NetHope disaster relief project that helped aid workers during the recent Ebola crisis in Africa, as well as their NetAcademy scheme which helps provide IT skills development and future job opportunities for those people who live in under-developed countries."
+    videoFourteen.id = "NOrPe-1lgC80"
     videos.append(videoFourteen)
     
     let videoFifteen = Video()
