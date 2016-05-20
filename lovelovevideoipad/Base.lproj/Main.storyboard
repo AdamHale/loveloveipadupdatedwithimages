@@ -4,7 +4,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -304,29 +303,29 @@ The brief text will go here. Lorem ipsum dolor sit amet, consectetur adipiscing 
                         <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bluebar" translatesAutoresizingMaskIntoConstraints="NO" id="DiE-E5-yVk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluebar" translatesAutoresizingMaskIntoConstraints="NO" id="DiE-E5-yVk">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="64"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H33-3s-ezY" customClass="YouTubePlayerView" customModule="YouTubePlayer">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H33-3s-ezY" customClass="YouTubePlayerView" customModule="YouTubePlayer">
                                 <rect key="frame" x="275" y="82" width="474" height="266"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="H33-3s-ezY" secondAttribute="height" multiplier="16:9" id="LaW-Wu-CEz"/>
-                                </constraints>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh9-4z-D8L">
-                                <rect key="frame" x="182" y="373" width="660" height="175"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="321" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh9-4z-D8L">
+                                <rect key="frame" x="182" y="373" width="660" height="321"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="175" id="043-hZ-dvi"/>
-                                    <constraint firstAttribute="width" constant="660" id="nwv-Ug-e0s"/>
+                                    <constraint firstAttribute="width" constant="660" id="NyJ-O1-1B3"/>
+                                    <constraint firstAttribute="height" constant="321" id="dSQ-9W-h2l"/>
                                 </constraints>
-                                <string key="text">
-The brief text will go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit, velit ut luctus imperdiet, tellus est tristique magna, nec porttitor tortor ex sit amet dolor. Curabitur consectetur arcu vestibulum, maximus urna non, faucibus enim. Nam bibendum nisl at aliquet convallis. Pellentesque eget eros eget purus ullamcorper ultrices ut in ipsum. Donec mattis nibh a tempor iaculis. Proin volutpat pulvinar sapien sit amet pharetra. Pellentesque quis venenatis sem. Mauris dictum mi ultricies, finibus nibh vel, commodo neque. Curabitur imperdiet turpis nec arcu bibendum pharetra. Etiam ultricies augue vel venenatis interdum. Sed in pharetra odio. Fusce sapien lectus, tincidunt vel tortor et, vehicula viverra sapien. Nulla vitae metus et leo consequat mattis a ut libero. Sed mollis ex sed varius interdum</string>
+                                <mutableString key="text">The brief text will go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit, velit ut luctus imperdiet, tellus est tristique magna, nec porttitor tortor ex sit amet dolor. Curabitur consectetur arcu vestibulum, maximus urna non, faucibus enim. Nam bibendum nisl at aliquet convallis. Pellentesque eget eros eget purus ullamcorper ultrices ut in ipsum. Donec mattis nibh a tempor iaculis. Proin volutpat pulvinar sapien sit amet pharetra. Pellentesque quis venenatis sem. Mauris dictum mi ultricies, finibus nibh vel, commodo neque. Curabitur imperdiet turpis nec arcu bibendum pharetra. Etiam ultricies augue vel venenatis interdum. Sed in pharetra odio. Fusce sapien lectus, tincidunt vel tortor et, vehicula viverra sapien. Nulla vitae metus et leo consequat mattis a ut libero. Sed mollis ex sed varius interdum</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGw-j1-Uki">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGw-j1-Uki">
                                 <rect key="frame" x="221" y="11" width="583" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="5Sv-NH-hc2"/>
+                                    <constraint firstAttribute="width" constant="583" id="KSV-CJ-QUK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -334,13 +333,18 @@ The brief text will go here. Lorem ipsum dolor sit amet, consectetur adipiscing 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="H33-3s-ezY" firstAttribute="top" secondItem="DiE-E5-yVk" secondAttribute="bottom" constant="18" id="5VF-B6-Pxa"/>
-                            <constraint firstItem="gh9-4z-D8L" firstAttribute="leading" secondItem="ouY-OR-AMa" secondAttribute="leading" constant="202" id="6ZS-fM-XcY"/>
-                            <constraint firstItem="DiE-E5-yVk" firstAttribute="leading" secondItem="ouY-OR-AMa" secondAttribute="leading" id="E7R-ha-szH"/>
-                            <constraint firstItem="H33-3s-ezY" firstAttribute="width" secondItem="H33-3s-ezY" secondAttribute="height" multiplier="16:9" id="cYG-di-xNw"/>
-                            <constraint firstItem="DiE-E5-yVk" firstAttribute="top" secondItem="1hC-6t-Q8Q" secondAttribute="bottom" id="pDp-lM-7bQ"/>
-                            <constraint firstAttribute="trailing" secondItem="DiE-E5-yVk" secondAttribute="trailing" id="skS-aW-kDR"/>
-                            <constraint firstItem="H33-3s-ezY" firstAttribute="width" secondItem="H33-3s-ezY" secondAttribute="height" multiplier="16:9" id="vFt-LO-8Ci"/>
+                            <constraint firstItem="gh9-4z-D8L" firstAttribute="top" secondItem="H33-3s-ezY" secondAttribute="bottom" constant="25" id="0CX-qa-lh9"/>
+                            <constraint firstItem="nCh-ZY-5HS" firstAttribute="top" secondItem="gh9-4z-D8L" secondAttribute="bottom" constant="10" id="3qr-hE-7Vo"/>
+                            <constraint firstItem="DiE-E5-yVk" firstAttribute="top" secondItem="1hC-6t-Q8Q" secondAttribute="bottom" id="BtD-Lh-ahk"/>
+                            <constraint firstAttribute="trailing" secondItem="DiE-E5-yVk" secondAttribute="trailing" id="CLU-fX-tG9"/>
+                            <constraint firstItem="DiE-E5-yVk" firstAttribute="centerX" secondItem="vGw-j1-Uki" secondAttribute="centerX" id="DqA-IG-5gX"/>
+                            <constraint firstItem="H33-3s-ezY" firstAttribute="leading" secondItem="ouY-OR-AMa" secondAttribute="leading" constant="275" id="Kx0-Fg-gXL"/>
+                            <constraint firstItem="vGw-j1-Uki" firstAttribute="top" secondItem="1hC-6t-Q8Q" secondAttribute="bottom" constant="11" id="Lwo-ym-Vlc"/>
+                            <constraint firstItem="vGw-j1-Uki" firstAttribute="centerY" secondItem="DiE-E5-yVk" secondAttribute="centerY" id="aqT-ya-txG"/>
+                            <constraint firstItem="vGw-j1-Uki" firstAttribute="centerX" secondItem="H33-3s-ezY" secondAttribute="centerX" id="f0Y-I7-grn"/>
+                            <constraint firstItem="gh9-4z-D8L" firstAttribute="centerX" secondItem="H33-3s-ezY" secondAttribute="centerX" id="kcX-M8-JXK"/>
+                            <constraint firstItem="DiE-E5-yVk" firstAttribute="leading" secondItem="ouY-OR-AMa" secondAttribute="leading" id="vBd-U7-OC4"/>
+                            <constraint firstItem="H33-3s-ezY" firstAttribute="top" secondItem="DiE-E5-yVk" secondAttribute="bottom" constant="18" id="x2a-RH-Jv6"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
