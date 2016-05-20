@@ -13,16 +13,21 @@ import YouTubePlayer
 
 class ViewController: UIViewController {
     
+    var color = UIColor.whiteColor()
+    
     var secondWindow : UIWindow?
     var secondScreenView : UIView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController!.navigationBar.tintColor = color
+        
         setupScreen()
     
         let img = UIImage(named: "navbarblue")
         navigationController?.navigationBar.setBackgroundImage(img, forBarMetrics: .Default)
+       
         
     }
 
