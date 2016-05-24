@@ -18,6 +18,7 @@ class DetailView: UIViewController {
     
     @IBOutlet weak var videoDescription: UITextView!
     
+    
     @IBAction func videoPlay(sender: AnyObject) {
         if videoPlayer.ready {
             videoPlayer.play()
@@ -29,6 +30,9 @@ class DetailView: UIViewController {
         
         videoTitle.text = video.title
         videoDescription.text = video.description
+        videoDescription.font = UIFont(name: "Raleway-Regular", size: 20)
+        
+        
         
     }
     

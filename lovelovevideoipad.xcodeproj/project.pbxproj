@@ -14,6 +14,8 @@
 		5BAE43041CE3229A0053F40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE43021CE3229A0053F40E /* LaunchScreen.storyboard */; };
 		5BAE430F1CE3229A0053F40E /* lovelovevideoipadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE430E1CE3229A0053F40E /* lovelovevideoipadTests.swift */; };
 		5BAE431A1CE3229A0053F40E /* lovelovevideoipadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE43191CE3229A0053F40E /* lovelovevideoipadUITests.swift */; };
+		5BD3F9DB1CF48EB1006ACCEA /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BD3F9DA1CF48EB1006ACCEA /* Raleway-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		5BD3F9DD1CF49E84006ACCEA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD3F9DC1CF49E84006ACCEA /* CustomButton.swift */; settings = {ASSET_TAGS = (); }; };
 		688B2E9DFADE2CC91934A22C /* Pods_lovelovevideoipad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB849A48FC12DB3A953CA18 /* Pods_lovelovevideoipad.framework */; };
 		EB304BF01CE4C3CD0058437D /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BEF1CE4C3CD0058437D /* VideoView.swift */; };
 		EB304BF21CE4C3DC0058437D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB304BF11CE4C3DC0058437D /* DetailView.swift */; };
@@ -53,6 +55,8 @@
 		5BAE43151CE3229A0053F40E /* lovelovevideoipadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lovelovevideoipadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAE43191CE3229A0053F40E /* lovelovevideoipadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lovelovevideoipadUITests.swift; sourceTree = "<group>"; };
 		5BAE431B1CE3229A0053F40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD3F9DA1CF48EB1006ACCEA /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "../../../Downloads/raleway/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		5BD3F9DC1CF49E84006ACCEA /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		9B492FDD01534D5C71174ED5 /* Pods-lovelovevideoipad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lovelovevideoipad.release.xcconfig"; path = "Pods/Target Support Files/Pods-lovelovevideoipad/Pods-lovelovevideoipad.release.xcconfig"; sourceTree = "<group>"; };
 		EB304BEF1CE4C3CD0058437D /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		EB304BF11CE4C3DC0058437D /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -120,8 +124,10 @@
 		5BAE42F81CE3229A0053F40E /* lovelovevideoipad */ = {
 			isa = PBXGroup;
 			children = (
+				5BD3F9DA1CF48EB1006ACCEA /* Raleway-Regular.ttf */,
 				5BAE42F91CE3229A0053F40E /* AppDelegate.swift */,
 				5BAE42FB1CE3229A0053F40E /* ViewController.swift */,
+				5BD3F9DC1CF49E84006ACCEA /* CustomButton.swift */,
 				5BAE42FD1CE3229A0053F40E /* Main.storyboard */,
 				EB304BF31CE4C3F40058437D /* NoAirplay.swift */,
 				EB304BF11CE4C3DC0058437D /* DetailView.swift */,
@@ -270,6 +276,7 @@
 				5BAE43041CE3229A0053F40E /* LaunchScreen.storyboard in Resources */,
 				5BAE43011CE3229A0053F40E /* Assets.xcassets in Resources */,
 				5BAE42FF1CE3229A0053F40E /* Main.storyboard in Resources */,
+				5BD3F9DB1CF48EB1006ACCEA /* Raleway-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +353,7 @@
 				EB304BF81CE4D2140058437D /* Video.swift in Sources */,
 				EB304BF01CE4C3CD0058437D /* VideoView.swift in Sources */,
 				EB304BF21CE4C3DC0058437D /* DetailView.swift in Sources */,
+				5BD3F9DD1CF49E84006ACCEA /* CustomButton.swift in Sources */,
 				5BAE42FC1CE3229A0053F40E /* ViewController.swift in Sources */,
 				5BAE42FA1CE3229A0053F40E /* AppDelegate.swift in Sources */,
 			);

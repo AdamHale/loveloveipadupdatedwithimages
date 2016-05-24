@@ -58,7 +58,7 @@ func buildVideos() -> [Video] {
     
     let videoSix = Video()
     videoSix.title = "BESPOKE"
-    videoSix.description = "The Brief \n\n\n\nThe Process \n\n\n\nThe Result \n\n"
+    videoSix.description = "LoveLove were commissioned by Barclaycard to create an advert for their Bespoke Offers app. The client needed something that would both show its ease of use and that it is a luxury convenience app. We created an advert that incorporated animated graphics around a live action rendition of the app being used. The finished video promotes to the audience how they can easily access offers in a concise and appealing manner."
     videoSix.id = "Zw7LjDKqnio"
     videos.append(videoSix)
     
@@ -82,13 +82,13 @@ func buildVideos() -> [Video] {
     videos.append(videoNine)
     
     let videoTen = Video()
-    videoTen.title = "GABBY YOUNG & OTHER ANIMALS – I’VE IMPROVED"
+    videoTen.title = "GABBY YOUNG – I’VE IMPROVED"
     videoTen.description = "The Brief \n\nLoveLove were approached by Gabby Young & the Other Animals to produce a second music video for the band. Their first single ‘I’ve Improved’ is to be released off of their upcoming album ‘One foot in front of the other’. LoveLove were contracted to produce the music video from concept to completion. \n\nThe Process \n\nLoveLove worked with our in-house writers and designers to conceptualise the track working on narrative structure and storyline. We wanted to create an epic adventure video. We conceptualised an animated world and shot Gabby Young and her band members performing live in front of a green screen and then composited their bodies into the animated realm. This process gave the band a unique eye catching music video which kept in theme with the bands’ other promotional materials – album cover, website etc. \n\nThe Result \n\nGabby Young & the Other Animals unveiled the animated video at their concert in London, it has since gone on to garner over 10,000 views on YouTube alone. The music video along with a live performance by Gabby Young & the Other Animals was showcased at the SXSW 2014 Festival in Austin, Texas. Culturefly featured the music video for ‘I’ve Improved’ as their MVOTW spot on their website and can be quoted: ‘A most unusual video – just like a pop-up book – it’s a creative treat which throws the band into a paper-made landscape of rolling waves and weaving cog-wheels'."
     videoTen.id = "m8ny-8rgN9Y"
     videos.append(videoTen)
     
     let videoEleven = Video()
-    videoEleven.title = "GABBY YOUNG & OTHER ARTISTS – ‘IN YOUR HEAD’"
+    videoEleven.title = "GABBY YOUNG – ‘IN YOUR HEAD’"
     videoEleven.description = "The Brief \n\nWe were commissioned to produce a music video for artist Gabby Young & Other Animals. We had a completely open brief to create a music video for the track ‘In Your Head’. \n\nThe Process \n\nThe video is made entirely out of photos that we shot in house that have been stylistically animated. We consulted with the band and management on brand ideologies. We created an animated 2D journey where Gabby and fellow band members defeat the Evil Ring Master to rescue animals from a Victorian styled circus.\nThe video was relatively low budget, therefore, we engaged with the artist to raise funds through crowd sourcing. LoveLove came up with the idea that Gabby Young & the Other Animals’ fans could fund the video through donations in exchange the fans would send high res images to LoveLove. These images would in turn be animated and the fans would appear in the music video. Not only was this a great way to fund the music video but it meant that the fans would directly engage with the music video. We also wanted the video to be interactive and we made three interactive endings where the fans could choose which animal to save.\nFurther to the video we created three Games that the fans could play on Gabby Young’s website driving traffic directly from the videos hosted on Youtube. \n\nThe Result \n\nThe video resulted in over 45,000 hits on YouTube alone and gained much press regarding the interactive elements including…….“LoveLove are an amazing team to work with – not only did they deliver a video that far surpassed my expectations but they were professional, creative, full of original ideas and a joy to work with. I will happily work with them again and again!” – Gabby Young"
     videoEleven.id = "yOCf-UzU6gs"
     videos.append(videoEleven)

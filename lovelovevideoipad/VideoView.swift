@@ -101,7 +101,7 @@ class VideoView: UIViewController {
             
             
             
-            let myImage = UIImage(named: "logoLight.png")
+            let myImage = UIImage(named: "LOVELOVEHD")
             let myImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: width, height: height))
             myImageView.image = myImage
             

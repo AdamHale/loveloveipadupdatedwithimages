@@ -62,12 +62,12 @@ class ViewController: UIViewController {
             
             videoPlayer.frame = secondScreenView!.bounds
             
-            let width = secondScreenView!.bounds.size.width
-            let height = secondScreenView!.bounds.size.height
+           let width = secondScreenView!.bounds.size.width
+           let height = secondScreenView!.bounds.size.height
             
+           
             
-            
-            let myImage = UIImage(named: "logoLight.png")
+            let myImage = UIImage(named: "logotv")
             let myImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: width, height: height))
             myImageView.image = myImage
             

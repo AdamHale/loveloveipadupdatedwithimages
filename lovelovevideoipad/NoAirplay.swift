@@ -36,10 +36,14 @@ class NoAirplay: UIViewController {
         
         videoTitle.text = video.title
         videoDescription.text = video.description
+       videoDescription.font = UIFont(name: "Raleway-Regular", size: 20)
+        
+        
         
     }
 
 
     
 }
+
 
